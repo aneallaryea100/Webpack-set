@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./AlwaysLovely.ttf') format('woff2'),
+      url('./JumpingFlash.ttf') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  body{
+    background-color: green;
+  }
+
+.hello{
+    color: red;
+    font-family: 'MyFont';
+    background: url('./bean.png');
+}
